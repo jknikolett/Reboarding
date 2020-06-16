@@ -1,0 +1,26 @@
+version: '3.7'
+services:
+  
+  config-service:
+    image: config-service
+    build:
+      context: ./config/
+      dockerfile: Dockerfile
+
+  eureka-service:
+    image: eureka-service
+    build:
+      context: ./eureka/
+      dockerfile: Dockerfile
+
+  boarding-service:
+    image: boarding-service
+    build:
+      context: ./boarding/
+      dockerfile: Dockerfile
+
+  terminal-service:
+    image: terminal-service
+    build:
+      context: ./card-terminal/
+      dockerfile: Dockerfile

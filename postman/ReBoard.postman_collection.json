@@ -1,0 +1,205 @@
+{
+	"info": {
+		"_postman_id": "b94fd059-9305-4cc9-bd1f-2ff86a258422",
+		"name": "ReBoard",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Services",
+			"item": [
+				{
+					"name": "Register with only userID",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "2328014a-2a03-4209-a4e8-4018a21eb12a",
+								"exec": [
+									"pm.test('Resonse ok', function() {\r",
+									"    const responseBody = pm.response.json();\r",
+									"    pm.expect(responseBody.status || null).to.equal(pm.iterationData.get('status'));\r",
+									"    pm.expect(responseBody.position || null).to.equal(pm.iterationData.get('position'));\r",
+									"})"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\": \"{{userId}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8081/boarding/register/",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"boarding",
+								"register",
+								""
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "000-123",
+									"disabled": true
+								}
+							]
+						},
+						"description": "- UserId: john-doe\r\n"
+					},
+					"response": []
+				},
+				{
+					"name": "Status",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "0074a1da-b5f4-4a33-bcad-b153535fd841",
+								"exec": [
+									"pm.test('Resonse ok', function() {\r",
+									"    const responseBody = pm.response.json();\r",
+									"    pm.expect(responseBody.status || null).to.equal(pm.iterationData.get('status'));\r",
+									"    pm.expect(responseBody.position || null).to.equal(pm.iterationData.get('position'));\r",
+									"})"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/boarding/status/{{userId}}",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"boarding",
+								"status",
+								"{{userId}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Card-Terminal",
+			"item": [
+				{
+					"name": "Entry",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "64827cc4-8221-4c7c-b541-80be3471616c",
+								"exec": [
+									"pm.test('Resonse ok', function() {\r",
+									"    const responseBody = pm.response.json();\r",
+									"    pm.expect(responseBody.entry || null).to.equal(pm.iterationData.get('entry'));\r",
+									"})"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/terminal/entry/{{userId}}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"terminal",
+								"entry",
+								"{{userId}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Exit",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "3355f868-3756-4de4-8d17-94869ab6fed3",
+								"exec": [
+									"pm.test('Resonse ok', function() {\r",
+									"    const responseBody = pm.response.json();\r",
+									"    pm.expect(responseBody.exit || null).to.equal(pm.iterationData.get('exit'));\r",
+									"})"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/terminal/exit/{{userId}}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"terminal",
+								"exit",
+								"{{userId}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "22818ec7-eddf-4a21-bdb6-857f5acf8ecf",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "98f238f8-1ff7-482f-b6d0-03dd455c73bc",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

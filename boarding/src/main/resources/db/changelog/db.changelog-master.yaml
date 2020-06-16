@@ -1,0 +1,174 @@
+databaseChangeLog:
+  - changeSet:
+      id: create capacity
+      author: krisz
+      changes:
+        - createTable:
+            tableName: capacity
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: percent
+                  type: numeric(3,0)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: maximum
+                  type: numeric(3,0)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: active
+                  type: boolean
+                  constraints:
+                    nullable: false
+        - createSequence:
+            sequenceName: capacity_sequence
+            startValue: 100
+            incrementBy: 50
+        - insert:
+            tableName: capacity
+            columns:
+              - column:
+                  name: id
+                  valueComputed: nextval('capacity_sequence')
+              - column:
+                  name: percent
+                  value: 10
+              - column:
+                  name: maximum
+                  value: 25
+              - column:
+                  name: active
+                  value: true
+        - insert:
+            tableName: capacity
+            columns:
+              - column:
+                  name: id
+                  valueComputed: nextval('capacity_sequence')
+              - column:
+                  name: percent
+                  value: 20
+              - column:
+                  name: maximum
+                  value: 50
+              - column:
+                  name: active
+                  value: false
+        - insert:
+            tableName: capacity
+            columns:
+              - column:
+                  name: id
+                  valueComputed: nextval('capacity_sequence')
+              - column:
+                  name: percent
+                  value: 30
+              - column:
+                  name: maximum
+                  value: 75
+              - column:
+                  name: active
+                  value: false
+        - insert:
+            tableName: capacity
+            columns:
+              - column:
+                  name: id
+                  valueComputed: nextval('capacity_sequence')
+              - column:
+                  name: percent
+                  value: 50
+              - column:
+                  name: maximum
+                  value: 125
+              - column:
+                  name: active
+                  value: false
+        - insert:
+            tableName: capacity
+            columns:
+              - column:
+                  name: id
+                  valueComputed: nextval('capacity_sequence')
+              - column:
+                  name: percent
+                  value: 100
+              - column:
+                  name: maximum
+                  value: 250
+              - column:
+                  name: active
+                  value: false
+
+  - changeSet:
+      id: create register
+      author: krisz
+      changes:
+        - createTable:
+            tableName: register
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: user_id
+                  type: varchar(25)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: register_date
+                  type: date
+                  constraints:
+                    nullable: false
+              - column:
+                  name: status
+                  type: varchar(10)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: position
+                  type: numeric(3,0)
+                  constraints:
+                    nullable: false
+        - createSequence:
+            sequenceName: register_sequence
+            startValue: 100
+            incrementBy: 50
+
+  - changeSet:
+      id: create position
+      author: krisz
+      changes:
+        - createTable:
+            tableName: position
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: position_date
+                  type: date
+                  constraints:
+                    nullable: false
+              - column:
+                  name: actual_position
+                  type: numeric(3,0)
+                  constraints:
+                    nullable: false
+        - createSequence:
+            sequenceName: position_sequence
+            startValue: 100
+            incrementBy: 50
