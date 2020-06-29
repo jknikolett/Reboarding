@@ -1,0 +1,2439 @@
+[
+    {
+        "id": 1,
+        "available": true,
+        "relatedDesks": [2, 8],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 737,
+                "y": 96
+            }
+        },
+        {
+            "position":
+            {
+                "x": 756,
+                "y": 96
+            }
+        },
+        {
+            "position":
+            {
+                "x": 775,
+                "y": 96
+            }
+        },
+        {
+            "position":
+            {
+                "x": 737,
+                "y": 127
+            }
+        },
+        {
+            "position":
+            {
+                "x": 756,
+                "y": 127
+            }
+        },
+        {
+            "position":
+            {
+                "x": 775,
+                "y": 127
+            }
+        }],
+        "rectangle":
+        {
+            "x": 728,
+            "y": 101,
+            "width": 57,
+            "height": 21
+        }
+    },
+    {
+        "id": 2,
+        "available": true,
+        "relatedDesks": [1, 3, 8],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 737,
+                "y": 145
+            }
+        },
+        {
+            "position":
+            {
+                "x": 756,
+                "y": 145
+            }
+        },
+        {
+            "position":
+            {
+                "x": 775,
+                "y": 145
+            }
+        },
+        {
+            "position":
+            {
+                "x": 737,
+                "y": 176
+            }
+        },
+        {
+            "position":
+            {
+                "x": 756,
+                "y": 176
+            }
+        },
+        {
+            "position":
+            {
+                "x": 775,
+                "y": 176
+            }
+        }],
+        "rectangle":
+        {
+            "x": 728,
+            "y": 149,
+            "width": 57,
+            "height": 21
+        }
+    },
+    {
+        "id": 3,
+        "available": true,
+        "relatedDesks": [2],
+        "chairs": [
+
+            {
+                "position":
+                {
+                    "x": 737,
+                    "y": 193
+                }
+            },
+            {
+                "position":
+                {
+                    "x": 756,
+                    "y": 193
+                }
+            },
+            {
+                "position":
+                {
+                    "x": 775,
+                    "y": 193
+                }
+            },
+            {
+                "position":
+                {
+                    "x": 737,
+                    "y": 224
+                }
+            },
+            {
+                "position":
+                {
+                    "x": 756,
+                    "y": 224
+                }
+            },
+            {
+                "position":
+                {
+                    "x": 775,
+                    "y": 224
+                }
+            }
+        ],
+        "rectangle":
+        {
+            "x": 728,
+            "y": 198,
+            "width": 57,
+            "height": 21
+        }
+    },
+
+
+    {
+        "id": 4,
+        "available": true,
+        "relatedDesks": [5],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 737,
+                "y": 295
+            }
+        },
+        {
+            "position":
+            {
+                "x": 756,
+                "y": 295
+            }
+        },
+        {
+            "position":
+            {
+                "x": 775,
+                "y": 295
+            }
+        }],
+        "rectangle":
+        {
+            "x": 728,
+            "y": 280,
+            "width": 57,
+            "height": 11
+        }
+    },
+    {
+        "id": 5,
+        "available": true,
+        "relatedDesks": [4, 6],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 737,
+                "y": 316
+            }
+        },
+        {
+            "position":
+            {
+                "x": 756,
+                "y": 316
+            }
+        },
+        {
+            "position":
+            {
+                "x": 775,
+                "y": 316
+            }
+        },
+        {
+            "position":
+            {
+                "x": 737,
+                "y": 347
+            }
+        },
+        {
+            "position":
+            {
+                "x": 756,
+                "y": 347
+            }
+        },
+        {
+            "position":
+            {
+                "x": 775,
+                "y": 347
+            }
+        }],
+        "rectangle":
+        {
+            "x": 728,
+            "y": 321,
+            "width": 57,
+            "height": 21
+        }
+    },
+    {
+        "id": 6,
+        "available": true,
+        "relatedDesks": [5, 7],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 737,
+                "y": 367
+            }
+        },
+        {
+            "position":
+            {
+                "x": 756,
+                "y": 367
+            }
+        },
+        {
+            "position":
+            {
+                "x": 775,
+                "y": 367
+            }
+        },
+        {
+            "position":
+            {
+                "x": 737,
+                "y": 398
+            }
+        },
+        {
+            "position":
+            {
+                "x": 756,
+                "y": 398
+            }
+        },
+        {
+            "position":
+            {
+                "x": 775,
+                "y": 398
+            }
+        }],
+        "rectangle":
+        {
+            "x": 728,
+            "y": 372,
+            "width": 57,
+            "height": 21
+        }
+    },
+    {
+        "id": 7,
+        "available": true,
+        "relatedDesks": [6],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 737,
+                "y": 419
+            }
+        },
+        {
+            "position":
+            {
+                "x": 756,
+                "y": 419
+            }
+        },
+        {
+            "position":
+            {
+                "x": 775,
+                "y": 419
+            }
+        },
+        {
+            "position":
+            {
+                "x": 737,
+                "y": 450
+            }
+        },
+        {
+            "position":
+            {
+                "x": 756,
+                "y": 450
+            }
+        },
+        {
+            "position":
+            {
+                "x": 775,
+                "y": 450
+            }
+        }],
+        "rectangle":
+        {
+            "x": 728,
+            "y": 423,
+            "width": 57,
+            "height": 21
+        }
+    },
+
+
+    {
+        "id": 8,
+        "available": true,
+        "relatedDesks": [1, 2, 9],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 816,
+                "y": 91
+            }
+        },
+        {
+            "position":
+            {
+                "x": 816,
+                "y": 110
+            }
+        }],
+        "rectangle":
+        {
+            "x": 822,
+            "y": 82,
+            "width": 10,
+            "height": 38
+        }
+    },
+
+
+    {
+        "id": 9,
+        "available": true,
+        "relatedDesks": [8, 10],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 839,
+                "y": 145
+            }
+        },
+        {
+            "position":
+            {
+                "x": 858,
+                "y": 145
+            }
+        },
+        {
+            "position":
+            {
+                "x": 877,
+                "y": 145
+            }
+        },
+        {
+            "position":
+            {
+                "x": 896,
+                "y": 145
+            }
+        },
+        {
+            "position":
+            {
+                "x": 839,
+                "y": 176
+            }
+        },
+        {
+            "position":
+            {
+                "x": 858,
+                "y": 176
+            }
+        },
+        {
+            "position":
+            {
+                "x": 877,
+                "y": 176
+            }
+        },
+        {
+            "position":
+            {
+                "x": 896,
+                "y": 176
+            }
+        }],
+        "rectangle":
+        {
+            "x": 830,
+            "y": 149,
+            "width": 75,
+            "height": 21
+        }
+    },
+    {
+        "id": 10,
+        "available": true,
+        "relatedDesks": [9, 11],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 839,
+                "y": 193
+            }
+        },
+        {
+            "position":
+            {
+                "x": 858,
+                "y": 193
+            }
+        },
+        {
+            "position":
+            {
+                "x": 877,
+                "y": 193
+            }
+        },
+        {
+            "position":
+            {
+                "x": 896,
+                "y": 193
+            }
+        },
+        {
+            "position":
+            {
+                "x": 839,
+                "y": 224
+            }
+        },
+        {
+            "position":
+            {
+                "x": 858,
+                "y": 224
+            }
+        },
+        {
+            "position":
+            {
+                "x": 877,
+                "y": 224
+            }
+        },
+        {
+            "position":
+            {
+                "x": 896,
+                "y": 224
+            }
+        }],
+        "rectangle":
+        {
+            "x": 830,
+            "y": 198,
+            "width": 75,
+            "height": 21
+        }
+    },
+    {
+        "id": 11,
+        "available": true,
+        "relatedDesks": [10, 12],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 839,
+                "y": 244
+            }
+        },
+        {
+            "position":
+            {
+                "x": 858,
+                "y": 244
+            }
+        },
+        {
+            "position":
+            {
+                "x": 877,
+                "y": 244
+            }
+        },
+        {
+            "position":
+            {
+                "x": 896,
+                "y": 244
+            }
+        },
+        {
+            "position":
+            {
+                "x": 839,
+                "y": 276
+            }
+        },
+        {
+            "position":
+            {
+                "x": 858,
+                "y": 276
+            }
+        },
+        {
+            "position":
+            {
+                "x": 877,
+                "y": 276
+            }
+        },
+        {
+            "position":
+            {
+                "x": 896,
+                "y": 276
+            }
+        }],
+        "rectangle":
+        {
+            "x": 830,
+            "y": 248,
+            "width": 75,
+            "height": 21
+        }
+    },
+    {
+        "id": 12,
+        "available": true,
+        "relatedDesks": [11, 13],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 839,
+                "y": 294
+            }
+        },
+        {
+            "position":
+            {
+                "x": 858,
+                "y": 294
+            }
+        },
+        {
+            "position":
+            {
+                "x": 877,
+                "y": 294
+            }
+        },
+        {
+            "position":
+            {
+                "x": 896,
+                "y": 294
+            }
+        },
+        {
+            "position":
+            {
+                "x": 839,
+                "y": 325
+            }
+        },
+        {
+            "position":
+            {
+                "x": 858,
+                "y": 325
+            }
+        },
+        {
+            "position":
+            {
+                "x": 877,
+                "y": 325
+            }
+        },
+        {
+            "position":
+            {
+                "x": 896,
+                "y": 325
+            }
+        }],
+        "rectangle":
+        {
+            "x": 830,
+            "y": 299,
+            "width": 75,
+            "height": 21
+        }
+    },
+    {
+        "id": 13,
+        "available": true,
+        "relatedDesks": [12],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 839,
+                "y": 345
+            }
+        },
+        {
+            "position":
+            {
+                "x": 858,
+                "y": 345
+            }
+        },
+        {
+            "position":
+            {
+                "x": 877,
+                "y": 345
+            }
+        },
+        {
+            "position":
+            {
+                "x": 896,
+                "y": 345
+            }
+        },
+        {
+            "position":
+            {
+                "x": 839,
+                "y": 377
+            }
+        },
+        {
+            "position":
+            {
+                "x": 858,
+                "y": 377
+            }
+        },
+        {
+            "position":
+            {
+                "x": 877,
+                "y": 377
+            }
+        },
+        {
+            "position":
+            {
+                "x": 896,
+                "y": 377
+            }
+        }],
+        "rectangle":
+        {
+            "x": 830,
+            "y": 350,
+            "width": 75,
+            "height": 21
+        }
+    },
+
+
+    {
+        "id": 14,
+        "available": true,
+        "relatedDesks": [15, 16],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 1105,
+                "y": 91
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1135,
+                "y": 91
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1105,
+                "y": 110
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1135,
+                "y": 110
+            }
+        }],
+        "rectangle":
+        {
+            "x": 1109,
+            "y": 82,
+            "width": 21,
+            "height": 38
+        }
+    },
+    {
+        "id": 15,
+        "available": true,
+        "relatedDesks": [14, 16, 20],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 1154,
+                "y": 91
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1184,
+                "y": 91
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1154,
+                "y": 110
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1184,
+                "y": 110
+            }
+        }],
+        "rectangle":
+        {
+            "x": 1158,
+            "y": 82,
+            "width": 21,
+            "height": 38
+        }
+    },
+
+
+    {
+        "id": 16,
+        "available": true,
+        "relatedDesks": [14, 15, 17],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 1101,
+                "y": 142
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1120,
+                "y": 142
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1139,
+                "y": 142
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1101,
+                "y": 173
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1120,
+                "y": 173
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1139,
+                "y": 173
+            }
+        }],
+        "rectangle":
+        {
+            "x": 1092,
+            "y": 147,
+            "width": 56,
+            "height": 21
+        }
+    },
+    {
+        "id": 17,
+        "available": true,
+        "relatedDesks": [16],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 1101,
+                "y": 191
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1120,
+                "y": 191
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1139,
+                "y": 191
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1101,
+                "y": 222
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1120,
+                "y": 222
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1139,
+                "y": 222
+            }
+        }],
+        "rectangle":
+        {
+            "x": 1092,
+            "y": 195,
+            "width": 56,
+            "height": 21
+        }
+    },
+
+
+    {
+        "id": 18,
+        "available": true,
+        "relatedDesks": [19],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 1101,
+                "y": 303
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1120,
+                "y": 303
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1139,
+                "y": 303
+            }
+        }],
+        "rectangle":
+        {
+            "x": 1092,
+            "y": 287,
+            "width": 56,
+            "height": 11
+        }
+    },
+    {
+        "id": 19,
+        "available": true,
+        "relatedDesks": [18],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 1101,
+                "y": 323
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1120,
+                "y": 323
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1139,
+                "y": 323
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1101,
+                "y": 354
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1120,
+                "y": 354
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1139,
+                "y": 354
+            }
+        }],
+        "rectangle":
+        {
+            "x": 1092,
+            "y": 327,
+            "width": 56,
+            "height": 21
+        }
+    },
+
+
+    {
+        "id": 20,
+        "available": true,
+        "relatedDesks": [15, 21],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 1203,
+                "y": 156
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1223,
+                "y": 156
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1241,
+                "y": 156
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1260,
+                "y": 156
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1203,
+                "y": 187
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1223,
+                "y": 187
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1241,
+                "y": 187
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1260,
+                "y": 187
+            }
+        }],
+        "rectangle":
+        {
+            "x": 1194,
+            "y": 161,
+            "width": 75,
+            "height": 22
+        }
+    },
+    {
+        "id": 21,
+        "available": true,
+        "relatedDesks": [20, 22],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 1203,
+                "y": 206
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1223,
+                "y": 206
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1241,
+                "y": 206
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1260,
+                "y": 206
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1203,
+                "y": 237
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1223,
+                "y": 237
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1241,
+                "y": 237
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1260,
+                "y": 237
+            }
+        }],
+        "rectangle":
+        {
+            "x": 1194,
+            "y": 211,
+            "width": 75,
+            "height": 22
+        }
+    },
+    {
+        "id": 22,
+        "available": true,
+        "relatedDesks": [21, 23],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 1203,
+                "y": 256
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1223,
+                "y": 256
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1241,
+                "y": 256
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1260,
+                "y": 256
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1203,
+                "y": 287
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1223,
+                "y": 287
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1241,
+                "y": 287
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1260,
+                "y": 287
+            }
+        }],
+        "rectangle":
+        {
+            "x": 1194,
+            "y": 261,
+            "width": 75,
+            "height": 22
+        }
+    },
+    {
+        "id": 23,
+        "available": true,
+        "relatedDesks": [22, 24],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 1203,
+                "y": 306
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1223,
+                "y": 306
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1241,
+                "y": 306
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1260,
+                "y": 306
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1203,
+                "y": 337
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1223,
+                "y": 337
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1241,
+                "y": 337
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1260,
+                "y": 337
+            }
+        }],
+        "rectangle":
+        {
+            "x": 1194,
+            "y": 311,
+            "width": 75,
+            "height": 22
+        }
+    },
+    {
+        "id": 24,
+        "available": true,
+        "relatedDesks": [23],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 1203,
+                "y": 356
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1223,
+                "y": 356
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1241,
+                "y": 356
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1260,
+                "y": 356
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1203,
+                "y": 387
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1223,
+                "y": 387
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1241,
+                "y": 387
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1260,
+                "y": 387
+            }
+        }],
+        "rectangle":
+        {
+            "x": 1194,
+            "y": 361,
+            "width": 75,
+            "height": 22
+        }
+    },
+
+
+    {
+        "id": 25,
+        "available": true,
+        "relatedDesks": [26],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 1297,
+                "y": 451
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1328,
+                "y": 451
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1297,
+                "y": 470
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1328,
+                "y": 470
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1297,
+                "y": 489
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1328,
+                "y": 489
+            }
+        }],
+        "rectangle":
+        {
+            "x": 1302,
+            "y": 442,
+            "width": 21,
+            "height": 57
+        }
+    },
+    {
+        "id": 26,
+        "available": true,
+        "relatedDesks": [25, 27],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 1347,
+                "y": 451
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1378,
+                "y": 451
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1347,
+                "y": 470
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1378,
+                "y": 470
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1347,
+                "y": 489
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1378,
+                "y": 489
+            }
+        }],
+        "rectangle":
+        {
+            "x": 1352,
+            "y": 442,
+            "width": 21,
+            "height": 57
+        }
+    },
+    {
+        "id": 27,
+        "available": true,
+        "relatedDesks": [26],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 1397,
+                "y": 451
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1428,
+                "y": 451
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1397,
+                "y": 470
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1428,
+                "y": 470
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1397,
+                "y": 489
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1428,
+                "y": 489
+            }
+        }],
+        "rectangle":
+        {
+            "x": 1402,
+            "y": 442,
+            "width": 21,
+            "height": 57
+        }
+    },
+
+
+    {
+        "id": 28,
+        "available": true,
+        "relatedDesks": [29],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 1290,
+                "y": 657
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1322,
+                "y": 657
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1290,
+                "y": 676
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1322,
+                "y": 676
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1290,
+                "y": 695
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1322,
+                "y": 695
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1290,
+                "y": 714
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1322,
+                "y": 714
+            }
+        }],
+        "rectangle":
+        {
+            "x": 1295,
+            "y": 648,
+            "width": 21,
+            "height": 75
+        }
+    },
+    {
+        "id": 29,
+        "available": true,
+        "relatedDesks": [28, 30],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 1342,
+                "y": 657
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1373,
+                "y": 657
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1342,
+                "y": 676
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1373,
+                "y": 676
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1342,
+                "y": 695
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1373,
+                "y": 695
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1342,
+                "y": 714
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1373,
+                "y": 714
+            }
+        }],
+        "rectangle":
+        {
+            "x": 1347,
+            "y": 648,
+            "width": 21,
+            "height": 75
+        }
+    },
+    {
+        "id": 30,
+        "available": true,
+        "relatedDesks": [29],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 1394,
+                "y": 657
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1425,
+                "y": 657
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1394,
+                "y": 676
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1425,
+                "y": 676
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1394,
+                "y": 695
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1425,
+                "y": 695
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1394,
+                "y": 714
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1425,
+                "y": 714
+            }
+        }],
+        "rectangle":
+        {
+            "x": 1398,
+            "y": 648,
+            "width": 21,
+            "height": 75
+        }
+    },
+
+
+
+
+
+    {
+        "id": 31,
+        "available": false,
+        "relatedDesks": [32],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 842,
+                "y": 684
+            }
+        },
+        {
+            "position":
+            {
+                "x": 867,
+                "y": 684
+            }
+        },
+        {
+            "position":
+            {
+                "x": 854,
+                "y": 696
+            }
+        }],
+        "rectangle":
+        {
+            "x": 846,
+            "y": 676,
+            "width": 16,
+            "height": 16
+        }
+    },
+    {
+        "id": 32,
+        "available": false,
+        "relatedDesks": [31],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 846,
+                "y": 709
+            }
+        },
+        {
+            "position":
+            {
+                "x": 862,
+                "y": 709
+            }
+        }],
+        "rectangle":
+        {
+            "x": 838,
+            "y": 714,
+            "width": 32,
+            "height": 9
+        }
+    },
+
+
+    {
+        "id": 33,
+        "available": false,
+        "relatedDesks": [34],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 1023,
+                "y": 685
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1023,
+                "y": 704
+            }
+        }],
+        "rectangle":
+        {
+            "x": 1008,
+            "y": 676,
+            "width": 10,
+            "height": 37
+        }
+    },
+    {
+        "id": 34,
+        "available": false,
+        "relatedDesks": [33],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 1041,
+                "y": 675
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1073,
+                "y": 675
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1041,
+                "y": 694
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1073,
+                "y": 694
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1041,
+                "y": 712
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1073,
+                "y": 712
+            }
+        }],
+        "rectangle":
+        {
+            "x": 1046,
+            "y": 666,
+            "width": 21,
+            "height": 57
+        }
+    },
+
+
+    {
+        "id": 35,
+        "available": false,
+        "relatedDesks": [],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 1097,
+                "y": 763
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1116,
+                "y": 763
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1135,
+                "y": 763
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1097,
+                "y": 794
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1116,
+                "y": 794
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1135,
+                "y": 794
+            }
+        }],
+        "rectangle":
+        {
+            "x": 1088,
+            "y": 768,
+            "width": 57,
+            "height": 22
+        }
+    },
+
+
+    {
+        "id": 36,
+        "available": false,
+        "relatedDesks": [],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 1097,
+                "y": 835
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1097,
+                "y": 866
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1116,
+                "y": 867
+            }
+        }],
+        "rectangle":
+        {
+            "x": 1088,
+            "y": 840,
+            "width": 38,
+            "height": 21
+        }
+    },
+
+
+    {
+        "id": 37,
+        "available": false,
+        "relatedDesks": [],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 1103,
+                "y": 888
+            }
+        }],
+        "rectangle":
+        {
+            "x": 1094,
+            "y": 895,
+            "width": 21,
+            "height": 11
+        }
+    },
+
+
+    {
+        "id": 38,
+        "available": false,
+        "relatedDesks": [],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 1104,
+                "y": 947
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1136,
+                "y": 947
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1104,
+                "y": 966
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1136,
+                "y": 966
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1104,
+                "y": 985
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1136,
+                "y": 985
+            }
+        }],
+        "rectangle":
+        {
+            "x": 1109,
+            "y": 937,
+            "width": 22,
+            "height": 57
+        }
+    },
+
+
+    {
+        "id": 39,
+        "available": false,
+        "relatedDesks": [40],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 1179,
+                "y": 947
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1211,
+                "y": 947
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1179,
+                "y": 966
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1211,
+                "y": 966
+            }
+        }],
+        "rectangle":
+        {
+            "x": 1184,
+            "y": 937,
+            "width": 22,
+            "height": 38
+        }
+    },
+    {
+        "id": 40,
+        "available": false,
+        "relatedDesks": [39],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 1227,
+                "y": 947
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1259,
+                "y": 947
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1227,
+                "y": 966
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1259,
+                "y": 966
+            }
+        }],
+        "rectangle":
+        {
+            "x": 1231,
+            "y": 937,
+            "width": 22,
+            "height": 38
+        }
+    },
+
+
+
+
+
+    {
+        "id": 41,
+        "available": false,
+        "relatedDesks": [42],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 1201,
+                "y": 779
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1220,
+                "y": 779
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1239,
+                "y": 779
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1258,
+                "y": 779
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1201,
+                "y": 811
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1220,
+                "y": 811
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1239,
+                "y": 811
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1258,
+                "y": 811
+            }
+        }],
+        "rectangle":
+        {
+            "x": 1192,
+            "y": 785,
+            "width": 75,
+            "height": 21
+        }
+    },
+    {
+        "id": 42,
+        "available": false,
+        "relatedDesks": [41, 43],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 1201,
+                "y": 825
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1220,
+                "y": 825
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1239,
+                "y": 825
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1258,
+                "y": 825
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1201,
+                "y": 857
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1220,
+                "y": 857
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1239,
+                "y": 857
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1258,
+                "y": 857
+            }
+        }],
+        "rectangle":
+        {
+            "x": 1192,
+            "y": 831,
+            "width": 75,
+            "height": 21
+        }
+    },
+    {
+        "id": 43,
+        "available": false,
+        "relatedDesks": [42],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 1201,
+                "y": 872
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1220,
+                "y": 872
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1239,
+                "y": 872
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1258,
+                "y": 872
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1201,
+                "y": 903
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1220,
+                "y": 903
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1239,
+                "y": 903
+            }
+        },
+        {
+            "position":
+            {
+                "x": 1258,
+                "y": 903
+            }
+        }],
+        "rectangle":
+        {
+            "x": 1192,
+            "y": 876,
+            "width": 75,
+            "height": 21
+        }
+    },
+
+
+
+
+
+    {
+        "id": 44,
+        "available": false,
+        "relatedDesks": [],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 1102,
+                "y": 274
+            }
+        }],
+        "rectangle":
+        {
+            "x": 1092,
+            "y": 257,
+            "width": 19,
+            "height": 10
+        }
+    },
+    {
+        "id": 45,
+        "available": false,
+        "relatedDesks": [],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 993,
+                "y": 709
+            }
+        }],
+        "rectangle":
+        {
+            "x": 975,
+            "y": 700,
+            "width": 11,
+            "height": 19
+        }
+    },
+    {
+        "id": 46,
+        "available": false,
+        "relatedDesks": [],
+        "chairs": [
+        {
+            "position":
+            {
+                "x": 1259,
+                "y": 714
+            }
+        }],
+        "rectangle":
+        {
+            "x": 1242,
+            "y": 705,
+            "width": 11,
+            "height": 19
+        }
+    }
+]

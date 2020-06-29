@@ -8,15 +8,17 @@ import com.grape.reboarding.terminal.service.RestService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import javax.validation.constraints.NotNull;
 
 @RefreshScope
 @RestController
-@RequestMapping("/terminal")
 @Slf4j
+@Validated
 public class TerminalController {
 
     @Autowired
@@ -26,7 +28,7 @@ public class TerminalController {
     private RestService restService;
 
     @GetMapping("/entry/{userId}")
-    public EntryDTO entry(@PathVariable("userId") String userId){
+    public EntryDTO entry(@PathVariable("userId") @NotNull String userId){
         if(restService.checkStatus(userId)){
             kafkaProducerService.sendAcceptedStatus(userId);
             return EntryDTO.builder().entry(Status.ACCEPTED).build();
@@ -35,7 +37,7 @@ public class TerminalController {
     }
 
     @GetMapping("/exit/{userId}")
-    public ExitDTO exit(@PathVariable("userId") String userId){
+    public ExitDTO exit(@PathVariable("userId") @NotNull String userId){
         kafkaProducerService.sendFinishedStatus(userId);
         return ExitDTO.builder().exit(Status.SUCCEEDED).build();
     }

@@ -172,3 +172,26 @@ databaseChangeLog:
             sequenceName: position_sequence
             startValue: 100
             incrementBy: 50
+
+  - changeSet:
+      id: drop capacity
+      author: krisz
+      changes:
+        - dropSequence:
+            sequenceName: capacity_sequence
+        - dropTable:
+            tableName: capacity
+
+  - changeSet:
+      id: alter register
+      author: krisz
+      changes:
+        - addColumn:
+            tableName: register
+            columns:
+              - column:
+                  name: x_coordinate
+                  type: numeric(4,0)
+              - column:
+                  name: y_coordinate
+                  type: numeric(4,0)

@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "Services",
+			"name": "Boarding",
 			"item": [
 				{
 					"name": "Register with only userID",
@@ -39,13 +39,12 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:8081/boarding/register/",
+							"raw": "localhost:8080/register/",
 							"host": [
 								"localhost"
 							],
-							"port": "8081",
+							"port": "8080",
 							"path": [
-								"boarding",
 								"register",
 								""
 							],
@@ -83,13 +82,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:8081/boarding/status/{{userId}}",
+							"raw": "localhost:8080/status/{{userId}}",
 							"host": [
 								"localhost"
 							],
-							"port": "8081",
+							"port": "8080",
 							"path": [
-								"boarding",
 								"status",
 								"{{userId}}"
 							]
@@ -124,14 +122,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8082/terminal/entry/{{userId}}",
-							"protocol": "http",
+							"raw": "localhost:8080/entry/{{userId}}",
 							"host": [
 								"localhost"
 							],
-							"port": "8082",
+							"port": "8080",
 							"path": [
-								"terminal",
 								"entry",
 								"{{userId}}"
 							]
@@ -160,14 +156,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8082/terminal/exit/{{userId}}",
-							"protocol": "http",
+							"raw": "localhost:8080/exit/{{userId}}",
 							"host": [
 								"localhost"
 							],
-							"port": "8082",
+							"port": "8080",
 							"path": [
-								"terminal",
 								"exit",
 								"{{userId}}"
 							]
@@ -196,6 +190,130 @@
 							""
 						]
 					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Visualization",
+			"item": [
+				{
+					"name": "Layout",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/layout",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"layout"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Reservation",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/reservation",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"reservation"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Refresh",
+			"item": [
+				{
+					"name": "Boarding",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/actuator/refresh",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"actuator",
+								"refresh"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Card-Terminal",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/actuator/refresh",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"actuator",
+								"refresh"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Visualization",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:8083/actuator/refresh",
+							"host": [
+								"localhost"
+							],
+							"port": "8083",
+							"path": [
+								"actuator",
+								"refresh"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Zuul",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/actuator/refresh",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"actuator",
+								"refresh"
+							]
+						}
+					},
+					"response": []
 				}
 			],
 			"protocolProfileBehavior": {}

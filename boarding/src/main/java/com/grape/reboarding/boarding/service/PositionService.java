@@ -3,20 +3,19 @@ package com.grape.reboarding.boarding.service;
 import com.grape.reboarding.boarding.entity.Position;
 import com.grape.reboarding.boarding.entity.Register;
 import com.grape.reboarding.boarding.entity.RegisterStatus;
-import com.grape.reboarding.boarding.repository.CapacityRepository;
 import com.grape.reboarding.boarding.repository.RegisterRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
+import java.util.Arrays;
+import java.util.List;
 
 @Service
 public class PositionService {
 
     @Autowired
     private RegisterRepository registerRepository;
-    @Autowired
-    private CapacityRepository capacityRepository;
 
     public Position createPosition(LocalDate registerDate) {
         return Position.builder()
@@ -25,21 +24,26 @@ public class PositionService {
                 .build();
     }
 
-    public Integer getPosition(String userId) throws RegisterException {
-        Register register = registerRepository.findByUserIdAndRegisterDateAndStatus(userId, LocalDate.now(), RegisterStatus.QUEUED);
-        if(register == null){
-            register = registerRepository.findByUserIdAndRegisterDateAndStatus(userId, LocalDate.now(), RegisterStatus.ACCEPTED);
-        }
-        if(register == null){
-            throw new RegisterException("User " + userId + " was not registered in the system!");
-        }
+    public Integer getPosition(String userId) {
+        Register register = registerRepository.findByUserIdAndRegisterDateAndStatusIn(userId, LocalDate.now(), Arrays.asList(RegisterStatus.QUEUED, RegisterStatus.ACCEPTED));
         return getPosition(register);
     }
 
     public Integer getPosition(Register register) {
-        Integer position = register.getPosition();
-        Integer capacity = capacityRepository.findByActiveTrue().getMaximum();
-        Integer finishedCount = registerRepository.countByStatusAndRegisterDate(RegisterStatus.FINISHED, register.getRegisterDate());
-        return Math.max(position - capacity - finishedCount, 0);
+        if(register.isPositionEmpty()){
+            List<Register> registers = registerRepository.findByRegisterDateAndXAndYAndStatusInOrderByPosition(register.getRegisterDate(), 0, 0, Arrays.asList(RegisterStatus.QUEUED));
+            return findIndex(registers, register);
+        } else {
+            return 0;
+        }
+    }
+
+    private Integer findIndex(List<Register> registers, Register item){
+        for(int i = 0; i < registers.size(); i++){
+            if(item.getUserId().equals(registers.get(i).getUserId())){
+                return i + 1;
+            }
+        }
+        return -1;
     }
 }

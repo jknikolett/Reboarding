@@ -33,21 +33,29 @@
     </appender>
 
     <!-- LOG everything at INFO level -->
-    <root level="info">
+    <root level="error">
         <appender-ref ref="RollingFile" />
         <appender-ref ref="Console" />
     </root>
 
     <!-- LOG "com.grape*" at TRACE level -->
-    <logger name="com.grape" level="trace" additivity="false">
+    <logger name="com.grape" level="info" additivity="false">
         <appender-ref ref="RollingFile" />
         <appender-ref ref="Console" />
     </logger>
-    <logger name="org.postgresql" level="debug" additivity="false">
+    <logger name="org.postgresql" level="error" additivity="false">
         <appender-ref ref="RollingFile" />
         <appender-ref ref="Console" />
     </logger>
-    <logger name="org.hibernate" level="debug" additivity="false">
+    <logger name="org.hibernate" level="error" additivity="false">
+        <appender-ref ref="RollingFile" />
+        <appender-ref ref="Console" />
+    </logger>
+    <logger name="com.fasterxml.jackson" level="error" additivity="false">
+        <appender-ref ref="RollingFile" />
+        <appender-ref ref="Console" />
+    </logger>
+    <logger name="org.springframework" level="error" additivity="false">
         <appender-ref ref="RollingFile" />
         <appender-ref ref="Console" />
     </logger>

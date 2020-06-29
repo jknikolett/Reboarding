@@ -1,5 +1,6 @@
 package com.grape.reboarding.terminal;
 
+import com.grape.reboarding.terminal.service.RestTemplateResponseErrorHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -18,6 +19,6 @@ public class CardTerminalApplication {
 
 	@Bean
 	public RestTemplate restTemplate(RestTemplateBuilder builder) {
-		return builder.build();
+		return builder.errorHandler(new RestTemplateResponseErrorHandler()).build();
 	}
 }

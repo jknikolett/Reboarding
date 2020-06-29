@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ResponseDTO {
+    private String imageUrl;
     private Integer position;
     private ResponseStatus status;
     private String message;

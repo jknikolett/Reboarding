@@ -3,6 +3,7 @@ package com.grape.reboarding.boarding.entity;
 import lombok.*;
 
 import javax.persistence.*;
+import java.awt.*;
 import java.time.LocalDate;
 
 @Entity
@@ -26,4 +27,16 @@ public class Register {
     @Enumerated(EnumType.STRING)
     private RegisterStatus status;
     private Integer position;
+    @Column(name = "x_coordinate")
+    private int x;
+    @Column(name = "y_coordinate")
+    private int y;
+
+    public Point getChairPosition(){
+        return new Point(x,y);
+    }
+
+    public boolean isPositionEmpty(){
+        return x == 0 || y == 0;
+    }
 }

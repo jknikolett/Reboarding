@@ -4,6 +4,14 @@ networks:
       name: reboarding-network
 services:
 
+  zuul-service:
+    image: zuul-service
+    container_name: zuul-service
+    ports:
+      - 8080:8080
+    expose:
+      - 8080
+
   boarding-service:
     image: boarding-service
     container_name: boarding-service
@@ -19,3 +27,11 @@ services:
       - 8082:8082
     expose:
       - 8082
+
+  visualization-service:
+    image: visualization-service
+    container_name: visualization-service
+    ports:
+      - 8083:8083
+    expose:
+      - 8083

@@ -13,6 +13,12 @@ services:
       context: ./eureka/
       dockerfile: Dockerfile
 
+  zuul-service:
+    image: zuul-service
+    build:
+      context: ./zuul/
+      dockerfile: Dockerfile
+
   boarding-service:
     image: boarding-service
     build:
@@ -23,4 +29,10 @@ services:
     image: terminal-service
     build:
       context: ./card-terminal/
+      dockerfile: Dockerfile
+
+  visualization-service:
+    image: visualization-service
+    build:
+      context: ./visualization/
       dockerfile: Dockerfile
