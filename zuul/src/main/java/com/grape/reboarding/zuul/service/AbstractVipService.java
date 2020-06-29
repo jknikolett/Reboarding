@@ -23,7 +23,7 @@ public abstract class AbstractVipService {
     List<String> vips;
 
     protected void handleRequest(String endpoint, Object responseEntity){
-        handleVip(getRequestUri().substring(endpoint.length()), responseEntity);
+        handleVip(getRequestUri().substring(endpoint.length() + 1), responseEntity);
     }
 
     protected void handleVip(String userId, Object responseEntity){
@@ -34,7 +34,7 @@ public abstract class AbstractVipService {
     }
 
     protected String getRequestUri(){
-        return (String) RequestContext.getCurrentContext().get(REQUEST_URI_KEY);
+        return ((String) RequestContext.getCurrentContext().get(REQUEST_URI_KEY)).replaceAll("/+", "/");
     }
 
     protected void setResponse(Object responseEntity){

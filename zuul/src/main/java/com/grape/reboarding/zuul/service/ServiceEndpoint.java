@@ -10,9 +10,9 @@ import java.util.Arrays;
 public enum ServiceEndpoint {
 
     REGISTER("/register"),
-    STATUS("/status/"),
-    ENTRY("/entry/"),
-    EXIT("/exit/");
+    STATUS("/status"),
+    ENTRY("/entry"),
+    EXIT("/exit");
 
     private final String endPoint;
 

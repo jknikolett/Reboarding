@@ -39,7 +39,7 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:8080/register/",
+							"raw": "localhost:8080/register",
 							"host": [
 								"localhost"
 							],

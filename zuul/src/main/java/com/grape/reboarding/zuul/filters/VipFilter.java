@@ -49,13 +49,13 @@ public class VipFilter extends ZuulFilter {
         RequestContext ctx = RequestContext.getCurrentContext();
         String serviceId = (String) ctx.get(SERVICE_ID_KEY);
         String requestUri = (String) ctx.get(REQUEST_URI_KEY);
-        vipServiceFactory.getVipService(serviceId, getPath(requestUri)).handleRequest();
+        vipServiceFactory.getVipService(serviceId, getPath(requestUri.replaceAll("/+", "/"))).handleRequest();
         return null;
     }
 
     private String getPath(String requestUri){
         int indexOfDash = requestUri.indexOf("/", 1);
-        int endIndex = indexOfDash == -1 ? requestUri.length() : indexOfDash + 1;
+        int endIndex = indexOfDash == -1 ? requestUri.length() : indexOfDash;
         return requestUri.substring(0, endIndex);
     }
 }
